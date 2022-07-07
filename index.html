@@ -3,79 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Joshua's Personal Site</title>
+  <title>Joshua Selig</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="2">
-    <tr>
-      <td><img src="images/joshua-profile-pic.jpg" alt="Joshua profile picture"></td>
-      <td>
-        <h1>Joshua Selig</h1>
-        <p><em>Web Development Student and <a href="https://www.linkedin.com/in/joshua-selig-192432102/">Customer Support Leader</a></em></p>
-        <p>I am studying the basics of web development. I love coffee and cats.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Valencia Community College - School of Public Safety</li>
-    <li>FEMA response and communications certification program</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Role</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2019-2022</td>
-        <td>Partner support agent</td>
-      </tr>
-      <tr>
-        <td>2021-2022</td>
-        <td>Partner support Senior</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3><a href="skills.html">Skills</a></h3>
-  <table border="2.5px" cellpadding="3px" cellspacing="1px">
-    <tr>
-      <td>Customer Support</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Windows environment </td>
-      <td>⭐⭐⭐⭐☆</td>
-    </tr>
-    <tr>
-      <td>Microsoft Office</td>
-      <td>⭐⭐⭐⭐☆</td>
-      <td>Telecom services</td>
-      <td>⭐⭐⭐☆☆</td>
-    </tr>
-    <tr>
-      <td>Android</td>
-      <td>⭐⭐⭐☆☆</td>
-      <td>iOS</td>
-      <td>⭐⭐⭐☆☆</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>⭐☆☆☆☆</td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Joshua.</h1>
+    <h2>a student programmer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/joshua-profile-pic.jpg" alt="joshua-profile-picture">
+      <h2>Hello.</h2>
+      <p class="intro">I am a customer support leader, currently studying web development. Please pardon the dust as I learn to properly build a site.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="bars-icon" src="images/bar-chart.gif" alt="bar-chart" border-radius="50%">
+        <h3>KPI and SLI delivery</h3>
+        <p>I have proven experience in assessing and delivering upon established KPI and SLI goals in continually evolving environments.</p>
+      </div>
+      <div class="skill-row">
+        <img class="coffee-icon" src="images/coffee-cup.png" alt="coffee-cup">
+        <h3>Coffee fiend</h3>
+        <p>I am a proud coffee fanatic, and while I prefer stronger brews, the more the better either way. Perfect for learning to code.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>For business inquiries or professional questions, please reach out through Linkedin.</h3>
+      <p>You can find a link to my profile below.</p>
+      <a class="btn" href="" title="currently unavailable">CONTACT ME</a>
+      <!-- add emailer link -->
+    </div>
+  </div>
   <br>
-  <a href="contact-me.html">Contact me</a>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/joshua-selig-192432102/" title="Connect with me on linkedin"><img class="link" src="images/linkedin.png" alt="https://www.linkedin.com/in/joshua-selig-192432102/"></a>
+    <a class="footer-link" href="https://twitter.com/" title="Connect with me on twitter"><img class="link-icon" src="images/twitter.png" alt="twitter link"></a><br>
+    <!-- add website link <a class="footer-link" href="" title="">Website</a> -->
+    <br>
+    <a class="footer-link" href="https://www.flaticon.com/" title="Freepik icons">Icons created by Freepik - Flaticon</a>
+    <p class="copyright">©2022 Joshua Selig</p>
+  </div>
 </body>
 
 </html>
